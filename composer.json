@@ -1,5 +1,5 @@
 {
-    "name": "danyaldk/activity-log",
+    "name": "danyaldk/lumen-activity-log",
     "description": "A package to store user activity log",
     "license": "MIT",
     "type": "project",
