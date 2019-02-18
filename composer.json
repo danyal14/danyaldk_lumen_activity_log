@@ -1,0 +1,22 @@
+{
+    "name": "danyaldk/activity-log",
+    "description": "A package to store user activity log",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/lumen-framework": "5.7.*"
+    },
+    "authors": [
+        {
+            "name": "Danyal Butt",
+            "email": "danyal@hotmail.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DANYALDK\\ActivityLog\\": "src/"
+        }
+    }
+}
