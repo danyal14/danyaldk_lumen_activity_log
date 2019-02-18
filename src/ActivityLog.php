@@ -48,13 +48,14 @@ class ActivityLog extends Model
      */
     public static function log(Request $request, array $data = [])
     {
-        if (isset($data['user'])) {
-            $user = $data['user'];
+        $user_id = 0;
+        if (isset($data['user_id'])) {
+            $user_id = $data['user_id'];
         }
         $message = isset($data['message']) ? $data['message'] : 'Some action is performed';
 
         self::create([
-            'user_id' => $user['id'],
+            'user_id' => $user_id,
             'object' => get_class($data['object']),
             'object_id' => $data['object']->id,
             'method' => $request->getMethod(),
