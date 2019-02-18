@@ -1,8 +1,8 @@
 {
     "name": "danyaldk/lumen-activity-log",
-    "description": "A package to store user activity log",
+    "description": "Very simple package to log user activities. Aim is to capture which object was created / updated / deleted by which user. Package it self has no relation implemented and stores whatever is passed.",
     "license": "MIT",
-    "type": "project",
+    "homepage": "https://github.com/danyal14/danyaldk_lumen_activity_log",
     "require": {
         "php": ">=7.1.3",
         "laravel/lumen-framework": "5.7.*"
