@@ -10,8 +10,7 @@ use Illuminate\Http\Request;
 /**
  * Class ActivityLog
  *
- * Package to share code among apis
- *
+ * @author Danyal <mig@danyal.dk>
  * @package DANYALDK\ActivityLog
  */
 class ActivityLog extends Model

@@ -3,6 +3,9 @@
 Very simple package to log user activities. Aim is to capture which object was created / updated / deleted by which user.
 Package it self has no relation implemented and stores whatever is passed.
 
+### Developer
+    
+    Danyal - www.danyal.dk
 
 ### Installation
 

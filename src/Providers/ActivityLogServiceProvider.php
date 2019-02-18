@@ -7,6 +7,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class ActivityLogServiceProvider
  *
+ * @author Danyal <mig@danyal.dk>
  * @package DANYALDK\ActivityLog\Providers
  */
 class ActivityLogServiceProvider extends ServiceProvider

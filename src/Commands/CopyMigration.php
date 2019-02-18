@@ -4,6 +4,12 @@ namespace DANYALDK\ActivityLog\Commands;
 
 use Illuminate\Console\Command;
 
+/**
+ * Class CopyMigration
+ *
+ * @author Danyal <mig@danyal.dk>
+ * @package DANYALDK\ActivityLog\Commands
+ */
 class CopyMigration extends Command
 {
     /**
