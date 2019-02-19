@@ -27,7 +27,7 @@ class CopyMigration extends Command
 
     public function handle()
     {
-        exec('cp vendor/danyaldk/activity-log/src/database/migrations/2019_02_11_104702_activity_log.php database/migrations/',$output, $return);
+        exec('cp vendor/danyaldk/lumen-activity-log/src/database/migrations/2019_02_11_104702_activity_log.php database/migrations/',$output, $return);
         if (!$return) {
             $this->info('Migration is copied successfully');
         } else {
