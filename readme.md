@@ -11,7 +11,7 @@ Package it self has no relation implemented and stores whatever is passed.
 
 You can install the package via composer:
 
-    composer require danyaldk/activity-log
+    composer require danyaldk/lumen-activity-log
     
 ### Register package in you Lumen API.
 
