@@ -1,6 +1,6 @@
 <?php
 
-namespace \ActivityLog\Providers;
+namespace DANYALDK\ActivityLog\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
